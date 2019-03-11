@@ -1,0 +1,30 @@
+{
+  "root": {
+    "src": "./src",
+    "prod": "./dist",
+    "dev": "./dev",
+    "mock": "./mock"
+  },
+  "tasks": {
+    "html": {
+      "src": "html",
+      "dev": "",
+      "prod": "",
+      "extensions": ["html"],
+      "cdnUrl": "",
+      "htmlmin": {
+        "removeComments": true, 
+        "collapseWhitespace ": true, 
+        "collapseBooleanAttributes": true,
+        "removeEmptyAttributes": true,
+        "removeScriptTypeAttributes": true, 
+        "removeStyleLinkTypeAttributes": true, 
+        "minifyJS": true, 
+        "minifyCSS": true
+      }
+    },
+    "scss": {
+      "cdnUrl": ""
+    }
+  }
+}
