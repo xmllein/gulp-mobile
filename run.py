@@ -38,7 +38,7 @@ def getGitBranch():
 
 # 上线测试环境
 def releaseOnline():
-    print 'release to gulp-html-release start...'
+    print 'release to gulp-mobile-release start...'
     # 打包存放临时目录
     bakTmp = './dist'
 
